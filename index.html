@@ -30,7 +30,7 @@
       scene.add(new THREE.AmbientLight(0x666666));
       
       var geometry = new THREE.BoxGeometry(1, 1, 1);
-      var materical = new THREE.MeshBasicMaterical({color: 0xccffcc});
+      var materical = new THREE.MeshStandardMaterical({color: 0xccffcc});
       var mesh = new THREE.Mesh(geometry, material);
       scene.add(mesh);
       
